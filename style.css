@@ -1,0 +1,262 @@
+* {
+    margin: 0px;
+    padding: opx;
+    font-family: sans-serif;
+
+}
+
+header {
+background-image:url(nar.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+position: relative;
+
+}
+
+ul{
+    float: right;
+    margin-top: 35px;
+}
+
+ul li {
+   display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+}
+ul li.active a {
+background-color: #fff;
+color: black;
+}
+
+.logo img{
+    float: left;
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    max-height: 1200px;
+    margin: auto;
+}
+.conten{
+    position: absolute;
+    left: 15%;
+}
+.conten h1{
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 5px 4px 4px #000000;
+    display: flex;
+    flex-direction: row;
+}
+.color{
+    color: yellow;
+    display: flex;
+    flex-direction: row;
+
+}
+.conten p{
+    color: yellow;
+    font-size: 20px;
+    text-shadow: 5px 4px 4px #000000;
+    display: flex;
+    flex-direction: row;
+}
+.ji{
+    text-shadow: 5px 4px 4px #000000;
+    color: #ffffff;
+}
+
+.button{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    margin-top: 50px;
+    font-size: 100%;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+section h2{
+    text-align: center;
+    padding: 20px 0;
+    color: #044b34;
+    margin-bottom: 10px;
+}
+
+.filosofi p{
+    color: #000000;
+    word-wrap: 2px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.video h3{
+    text-align: center;
+    padding: 20px 0;
+    color: #044b34;
+    margin-bottom: 10px
+}
+
+.natal img{
+align-items: center;
+justify-content: center;
+}
+
+.about h4{
+    color: #044b34;
+    word-wrap: 2px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.about p{
+    color: #000000;
+    text-align: center;
+   
+}
+.contac p{
+    color: #000000;
+  text-align: center;
+ 
+}   
+
+
+.war{
+    color: yellow;
+    font-size: 200%;
+}
+
+.du{
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.pelan{
+    text-align: center;
+    justify-content: center;
+}
+
+.pmb{
+   text-align: center;
+   justify-content: center;
+}
+
+.bin{
+    width: 50%;
+    height: 50%;
+                left: 25%;
+                position: absolute;    
+}
+.lagi{
+  text-align: center;
+  justify-items: last center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+
+
+.menuicon{
+       
+    font-size: 24px;
+    display: flex;
+justify-content: center;
+background-color: #03421d;
+color: #ffffff;
+}
+
+
+.non{
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 20px;
+}
+
+.tarian{
+    text-align: center;
+    justify-content: center;
+}
+
+.follow{
+  text-align: center;
+  justify-content: center;
+  color: #000000;
+}
+
+
+.i{
+    color: #fffb00;
+}
+
+
+@media only screen and (max-with: 768px) {
+    .navbar ul li{
+        display: none;
+        flex-wrap: wrap;
+        flex-grow: inherit;
+    }
+
+    .logo{
+        flex-wrap: wrap;
+
+    }
+
+    .conten h1{
+        flex-wrap: wrap;
+        font-size: 35px;
+
+    }
+    .logo img{
+        float: left;
+        width: 80px;
+        height: auto;
+        margin-top: 10px;
+        cursor: pointer;
+        flex-wrap: wrap;
+    }
+    
+    .conten h1{
+        color: #fff;
+        font-size: 50px;
+        text-shadow: 5px 4px 4px #000000;
+        display: flex;
+        flex-direction: row;
+    }
+    .lagi{
+        text-align: center;
+        justify-items: last center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+      }
+}
